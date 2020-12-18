@@ -25,6 +25,6 @@ int main() {
 	ll n;
 	cin >> n;
 	DP = vector<ll>(n+1, -1);
-	cout << combinations(n);
+	cout << combinations(n) << endl;
 	return 0;
 }
